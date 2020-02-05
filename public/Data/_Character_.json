@@ -1,0 +1,15 @@
+{
+"Character": [
+	{
+		"ID" : 1,
+		"Name" : "本条枫",
+		"ActorName" : "梅普露",
+		"Picture" : "1.png"
+	},
+	{
+		"ID" : 2,
+		"Name" : "白峰理沙",
+		"ActorName" : "莎莉",
+		"Picture" : "2.png"
+	}
+]}
