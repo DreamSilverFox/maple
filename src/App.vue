@@ -1,51 +1,22 @@
 <template>
   <div id="app">
-    <el-container>
-      <el-header :style="Header">
-        <el-image>
-          
-        </el-image>
-      </el-header>
-      <el-aside :style="Aside">
-        <NavMenu></NavMenu>
-      </el-aside>
-    </el-container>
-    <el-main style="height: 1500px;">
+    <div class="header">
+        <el-col style="height: 100%;" :span="6" :offset="18">
+          <el-image
+            style="height: 100%;"
+            :src="$global.logo"
+            :fit="fit"></el-image>
+        </el-col> 
+    </div>
+    <div class="aside">
+      <NavMenu></NavMenu>
+    </div>
+    <div class="main">
       <router-view/>
-    </el-main>
-    <el-footer style="height: 1500px;">footer</el-footer>
+    </div>
+    <div class="footer">footer</div>
   </div>
 </template>
-
-<script>
-import NavMenu from "./components/NavMenu"
-export default {
-  name: 'App',
-  data () {
-    return {
-      Header: {
-        height: ''
-      },
-      Aside: {
-        height: ''
-      }
-    }
-  },
-  components: {
-    NavMenu
-  },
-  mounted () {
-    let clientHeight = document.documentElement.clientHeight; 
-    this.Header.height = clientHeight * 0.2 + "px";
-    this.Aside.height = clientHeight * 0.8 + "px";
-    window.onresize = () => {
-      let clientHeight = document.documentElement.clientHeight; 
-      this.Header.height = clientHeight * 0.2 + "px";
-      this.Aside.height = clientHeight * 0.8 + "px";
-    }
-  }
-}
-</script>
 
 <style>
 #app {
@@ -53,30 +24,71 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #000000;
+  height: 100%;
 }
 
-.el-container {
+.header {
   position: fixed;
-  z-index: 9999;
-  text-align: center;
+  background-color: transparent;
+  pointer-events: auto;
   width: 100%;
+  height: 20%;
+  top: 0;
+  z-index: 1000;
 }
 
-.el-header {
+.aside {
+  position: fixed;
   background-color: transparent;
+  pointer-events: auto;
+  width: 20%;
+  height: 80%;
+  bottom: 0;
+  z-index: 1000;
 }
 
-.el-aside {
-  background-color: transparent;
+.main {
+  margin-top: 10%;
+  margin-left: 20%;
+  min-height: 120%;
 }
 
-.el-main {
-  
-  height: 5000px;
-}
-
-.el-footer {
+.footer {
   background-color: #000000;
 }
+
+.el-image {
+  text-align: right;
+}
 </style>
+
+<script>
+import NavMenu from "./components/NavMenu"
+export default {
+  name: 'App',
+  data () {
+    return {
+      c_height: 0,
+      c_width: 0,
+
+      fit: 'scale-down'
+    }
+  },
+  components: {
+    NavMenu
+  },
+  mounted () {
+    this.clientHeight()
+    window.onresize = () => {
+      this.clientHeight()
+    }
+  },
+  methods: {
+    clientHeight: function () {
+      this.c_height = document.documentElement.clientHeight;
+      this.c_width = document.documentElement.clientWidth;
+    }
+  }
+}
+</script>

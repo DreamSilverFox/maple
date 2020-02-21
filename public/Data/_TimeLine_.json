@@ -1,0 +1,32 @@
+{
+   "TimeLine" : [
+      {
+         "ID" : 1,
+         "Name" : "梅普露",
+         "Length" : 300,
+         "Item" : "1.png",
+         "Color" : "0xff0000"
+      },
+      {
+         "ID" : 2,
+         "Name" : "梅普露",
+         "Length" : 200,
+         "Item" : "1.png",
+         "Color" : "0x00ff00"
+      },
+      {
+         "ID" : 3,
+         "Name" : "梅普露",
+         "Length" : 400,
+         "Item" : "1.png",
+         "Color" : "0x0000ff"
+      },
+      {
+         "ID" : 4,
+         "Name" : "梅普露",
+         "Length" : 500,
+         "Item" : "1.png",
+         "Color" : "0xffff00"
+      }
+   ]
+}
