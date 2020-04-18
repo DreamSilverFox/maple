@@ -1,24 +1,10 @@
-# maple
+# 怕痛少女的防御特化
 
-## Project setup
-```
-npm install
-```
+## ChangeLog
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### V 0.0.1
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
++ 完成**elemenet**、**router** 和 **normalize.css** 插件准备
++ 完成总体架构
++ 完成**App.vue**内容
++ 制作**NavMenu**内容
