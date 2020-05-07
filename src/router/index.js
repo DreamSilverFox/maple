@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Character from '../views/Character.vue'
+import Attr from '../views/Attr.vue'
+import Eqpt from '../views/Eqpt.vue'
+import Skill from '../views/Skill.vue'
 
 Vue.use(VueRouter)
 
@@ -10,6 +13,26 @@ Vue.use(VueRouter)
     name: 'Character',
     component: Character
   },
+  {
+    path: '/character',
+    name: 'Character',
+    component: Character
+  },
+  {
+    path: '/attr',
+    name: 'Attr',
+    component: Attr
+  },
+  {
+    path: '/eqpt',
+    name: 'Eqpt',
+    component: Eqpt
+  },
+  {
+    path: '/skill',
+    name: 'Skill',
+    component: Skill
+  }
   // {
   //   path: '/about',
   //   name: 'About',

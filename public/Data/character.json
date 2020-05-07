@@ -1,18 +1,18 @@
 [
     {
         "id": 1,
-        "name": "梅普露(本条枫)",
+        "name": "\u6885\u666e\u9732(\u672c\u6761\u67ab)",
         "nickname": "Maple",
-        "cv": "本渡 楓",
+        "cv": "\u672c\u6e21 \u6953",
         "sex": 1,
-        "intro": "本名是本条枫。全部点满防御，成为无论什么样的攻击都能防御的大盾角色，但是本人却没有意识到自己的防御力异常，任何售后都能享受快乐的性格，有着暴走的好奇心。\n\n\n\n"
+        "intro": "\u672c\u540d\u662f\u672c\u6761\u67ab\u3002\u5168\u90e8\u70b9\u6ee1\u9632\u5fa1\uff0c\u6210\u4e3a\u65e0\u8bba\u4ec0\u4e48\u6837\u7684\u653b\u51fb\u90fd\u80fd\u9632\u5fa1\u7684\u5927\u76fe\u89d2\u8272\uff0c\u4f46\u662f\u672c\u4eba\u5374\u6ca1\u6709\u610f\u8bc6\u5230\u81ea\u5df1\u7684\u9632\u5fa1\u529b\u5f02\u5e38\uff0c\u4efb\u4f55\u552e\u540e\u90fd\u80fd\u4eab\u53d7\u5feb\u4e50\u7684\u6027\u683c\uff0c\u6709\u7740\u66b4\u8d70\u7684\u597d\u5947\u5fc3\u3002\n\n\n\n"
     },
     {
         "id": 2,
-        "name": "莎莉(白峰理沙)",
+        "name": "\u838e\u8389(\u767d\u5cf0\u7406\u6c99)",
         "nickname": "Sally",
-        "cv": "野口瑠璃子",
+        "cv": "\u91ce\u53e3\u7460\u7483\u5b50",
         "sex": 1,
-        "intro": "本名是白峰理沙。是枫的挚友，邀请枫来玩VRMMO『NewWorld Online』的人。游戏经验丰富，集中力超群，能够躲开所有攻击技能。是一个为朋友着想的人。\n"
+        "intro": "\u672c\u540d\u662f\u767d\u5cf0\u7406\u6c99\u3002\u662f\u67ab\u7684\u631a\u53cb\uff0c\u9080\u8bf7\u67ab\u6765\u73a9VRMMO\u300eNewWorld Online\u300f\u7684\u4eba\u3002\u6e38\u620f\u7ecf\u9a8c\u4e30\u5bcc\uff0c\u96c6\u4e2d\u529b\u8d85\u7fa4\uff0c\u80fd\u591f\u8eb2\u5f00\u6240\u6709\u653b\u51fb\u6280\u80fd\u3002\u662f\u4e00\u4e2a\u4e3a\u670b\u53cb\u7740\u60f3\u7684\u4eba\u3002\n"
     }
 ]
